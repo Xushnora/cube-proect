@@ -70,7 +70,7 @@ body {
 
 .top {
   transform: translate3d(0px, -150px, 0px) rotateX(-90deg);
-  background-color: #2837496c;
+  background-color: #31b76400;
 }
 
 .bottom {
