@@ -44,6 +44,9 @@ body {
 
 .content:hover .box{
     cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: -30px;
 }
 
 .front {
@@ -73,7 +76,11 @@ body {
 .bottom {
   transform: translate3d(0px, 150px, 0px) rotateX(-90deg);
   background-color: #31B764;
-  /* box-shadow: 11px -10px 9px -2px #073b02bd; */
+  box-shadow: 10px -9px 10px 1px rgba(1, 44, 4, 0.77);
+}
+
+.content:hover .bottom{
+  box-shadow: 48px -50px 50px 8px rgba(0,0,0,0.89);
 }
 
 @keyframes cube{
